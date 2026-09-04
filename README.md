@@ -2,6 +2,24 @@
 
 Este repositório reúne orientações para criar, configurar e publicar sistemas e sites utilizando WordPress, PHP e as ferramentas do ecossistema web.
 
+## Políticas de autorização de acesso do git
+# Para fazer push e pull;
+Precisa criar uma chave de autenticação para inserir no lugar da senha (password).
+# Etapas:
+Acesse sua conta no site do GitHub.
+
+1 - Vá em Settings (Configurações) > Developer settings (Configurações de desenvolvedor) no final do menu lateral esquerdo.
+
+2 - Clique em Personal access tokens > Tokens (classic).
+
+3 - Clique em Generate new token (classic).
+
+5 - Dê um nome ao token (ex: "GIPAR_SITE") e, em Scopes, marque pelo menos a caixinha repo (isso dá acesso total aos repositórios privados e públicos).
+
+6 - Clique em Generate token no final da página.
+
+7 - Copie o token gerado (ele começa com ghp_). Salve-o em um local seguro, pois você não poderá vê-lo novamente.
+
 ## 1. Defina o projeto
 
 Antes de iniciar o código:
