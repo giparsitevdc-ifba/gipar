@@ -25,7 +25,27 @@ Instale:
 - Git;
 - um ambiente local como DDEV, Docker, Local ou XAMPP.
 
-Exemplo usando DDEV:
+### WordPress com Docker Compose
+
+O arquivo `compose.yaml` inicia o WordPress e o MySQL com volumes persistentes. Para começar:
+
+```bash
+cp .env.example .env
+# Edite .env e altere as duas senhas
+docker compose config
+docker compose up -d
+```
+
+Acesse `http://localhost:8080` ou a porta definida por `WORDPRESS_PORT`. Para acompanhar os logs e desligar os serviços:
+
+```bash
+docker compose logs -f wordpress
+docker compose down
+```
+
+Os dados ficam nos volumes `wordpress_data` e `db_data`. Para remover também esses dados, use `docker compose down -v`.
+
+### Exemplo usando DDEV:
 
 ```bash
 ddev config --project-type=wordpress --docroot=web
