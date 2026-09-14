@@ -198,6 +198,26 @@ git push -u origin feature/nome-da-funcionalidade
 
 Revise o diff antes do commit e confirme que não há credenciais, dumps do banco, uploads ou dependências geradas incluídos.
 
+# Acessar a configuração de Secrets no GitHub
+1 - Acesse o repositório no GitHub.
+2 - Clique em Settings.
+3 - No menu lateral, clique em Secrets and variables.
+4 - Clique em Actions.
+5 - Clique em New repository secret.
+## Criar o Secret SERVER_HOST
+SERVER_HOST = (ip do host. Ex.: 10.1.0.25)
+Secret: 10.1.0.25
+Clique em Add secret.
+## Criar o Secret SERVER_SSH_KEY
+SERVER_SSH_KEY
+Secret
+Cole o conteúdo completo do arquivo: # Será enviado o ssh key para seu email 
+colar o conteudo em Secret. EXM.
+-----BEGIN OPENSSH PRIVATE KEY-----
+...
+-----END OPENSSH PRIVATE KEY-----
+Clique em Add secret.
+
 ## 10. Checklist inicial
 
 - [ ] Ambiente local configurado.
