@@ -1,4 +1,6 @@
-# Desenvolvimento de sistemas e sites com WordPress
+# Desenvolvimento de sistemas e sites com WordPress ou qualquer outra ferramenta ou linguagem de progrmação
+Os exemplos aqui apresentados são em Wordpress, mas são apenas exemplos.
+### Ao acessar com o usuário gipar_shell (ssh) ou gipar_file (SFTP), o seu dirtorio rais será o WORKDIR/GIPAR. Dentro deles é que deve ser colocado todos os arquivos necessários para a construção do site.
 
 Este repositório reúne orientações para criar, configurar e publicar sistemas e sites utilizando WordPress, PHP e as ferramentas do ecossistema web.
 
